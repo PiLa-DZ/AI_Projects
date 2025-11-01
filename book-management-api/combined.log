@@ -1,0 +1,21 @@
+{"level":"error","message":"Hi"}
+{"level":"error","message":"Hi"}
+{"level":"info","message":"Hi"}
+{"level":"error","message":"Hi"}
+{"level":"info","message":"Hi"}
+{"level":"info","message":"MongoDB Connected: ac-q2ru09u-shard-00-02.hvrpdpo.mongodb.net"}
+{"level":"info","message":"MongoDB Connected: ac-q2ru09u-shard-00-00.hvrpdpo.mongodb.net"}
+{"level":"info","message":"MongoDB Connected: ac-q2ru09u-shard-00-00.hvrpdpo.mongodb.net"}
+{"level":"info","message":"MongoDB Connected: ac-q2ru09u-shard-00-02.hvrpdpo.mongodb.net"}
+{"level":"info","message":"Server running in undefined mode on port 5000"}
+{"level":"info","message":"MongoDB Connected: ac-q2ru09u-shard-00-02.hvrpdpo.mongodb.net"}
+{"level":"info","message":"GET http://localhost:5000/"}
+{"level":"info","message":"Body: undefined"}
+{"level":"info","message":"GET http://localhost:5000/api/v1/books"}
+{"level":"info","message":"Body: undefined"}
+{"level":"info","message":"POST http://localhost:5000/"}
+{"level":"info","message":"Body: {\"title\":\"OneDay\",\"author\":\"DayOne\"}"}
+{"level":"info","message":"POST http://localhost:5000/api/v1/books"}
+{"level":"info","message":"Body: {\"title\":\"OneDay\",\"author\":\"DayOne\"}"}
+{"level":"info","message":"GET http://localhost:5000/api/v1/books"}
+{"level":"info","message":"Body: undefined"}
