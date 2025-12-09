@@ -1,13 +1,21 @@
-import express from 'express'
-import bcrypt from 'bcrypt'
+
+
+
 import jwt from 'jsonwebtoken'
-import mongoose from 'mongoose'
-import dotenv from 'dotenv'
-dotenv.config() 
+
+// import mongoose from 'mongoose'
+
+// import dotenv from 'dotenv'
+// dotenv.config() 
+
+
 
 const MONGODB_URI = process.env.MONGODB_URI
+
+
 const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY
 const PORT = process.env.PORT || 3000
+
 const app = express()
 
 // --- SCHEMA 1: Task Schema (Embedded Document) ---
@@ -301,6 +309,7 @@ app.get('/', (req, res) => {
         routes: [
             '/register (POST)', 
             '/login (POST)', 
+
             '/profile (GET - protected)', 
             '/profile/tasks (GET/POST - protected)',
             '/profile/tasks/:taskId (PUT/DELETE - protected)', // تم التحديث لاستخدام المسار RESTful
@@ -315,6 +324,7 @@ app.all('*', (req, res) => {
 
 // Connect to Database and Start Server
 mongoose.connect(MONGODB_URI, {
+
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
