@@ -63,3 +63,8 @@ echo "Step 6 --> Initializing a Repositore ========================="
 git log --oneline
 
 echo ""
+echo " == More Info ================================================"
+echo "NODE Version --> $(node -v)"
+echo "NPM  Version --> $(npm -v)"
+
+echo ""
